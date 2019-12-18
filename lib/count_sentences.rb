@@ -18,6 +18,6 @@ class String
 
   def count_sentences
     self.split(/[.,!,?]/).count{|x| x.length > 1}
-
+binding.pry
   end
 end
